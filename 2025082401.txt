@@ -5,7 +5,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MjQzNzQ1OTE5ZDZkZTQ5YTVkYg@hk077.jd.kunlunp
 ss://YWVzLTEyOC1nY206MGE3NGM5ZTQ1NjVlOTM1Y2YxYWM@hk018.jd.kunlunpx.com:45902?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D215996dd9f1c3db1e54b.microsoft.com#%F0%9F%87%AD%F0%9F%87%B0%20Hongkong%20018
 ss://YWVzLTEyOC1nY206NzMzOGQ5ODhkNzE1OTFkNzZiM2Y@hk016.jd.kunlunpx.com:45901?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D215996dd9f1c3db1e54b.microsoft.com#%F0%9F%87%AD%F0%9F%87%B0%20Hongkong%20016
 ss://YWVzLTEyOC1nY206NTFmOGM3NDU0YzkzZDBkODNjMjk@hk017.jd.kunlunpx.com:45900?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D215996dd9f1c3db1e54b.microsoft.com#%F0%9F%87%AD%F0%9F%87%B0%20Hongkong%20017
-ss://YWVzLTEyOC1nY206YjE2Y2IxOGQ4OTkyZjNiODNiN2Q@hk019.jd.kunlunpx.com:45903?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D215996dd9f1c3db1e54b.microsoft.com#%F0%9F%87%AD%F0%9F%87%B0%20Hongkong%20019
 ss://YWVzLTEyOC1nY206YTY0M2Y2ZjM3MzNjOTk2Mjg1MWQ@hk077.jd.kunlunpx.com:45936?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D215996dd9f1c3db1e54b.microsoft.com#to.FlyintPro.om
 ss://YWVzLTEyOC1nY206NzIyYTU0NDE0YWU2ZWU3MDZhYzk@jp07.jd.kunlunpx.com:45572?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D215996dd9f1c3db1e54b.microsoft.com#%F0%9F%87%AF%F0%9F%87%B5%20Japan%2007
 ss://YWVzLTEyOC1nY206Yzg5NjBjYTRhMGFkZDQzNWZjMzQ@jp029.jd.kunlunpx.com:45913?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D215996dd9f1c3db1e54b.microsoft.com#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20029
