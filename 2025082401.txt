@@ -19,6 +19,3 @@ https://d076280a-0d5f-11f0-8a7b-f23c913c8d2b:d076280a-0d5f-11f0-8a7b-f23c913c8d2
 https://d076280a-0d5f-11f0-8a7b-f23c913c8d2b:d076280a-0d5f-11f0-8a7b-f23c913c8d2b@2a82d497-t20sg0-tcum62-se45.jp4.oshuawei.com:443#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC4
 https://d076280a-0d5f-11f0-8a7b-f23c913c8d2b:d076280a-0d5f-11f0-8a7b-f23c913c8d2b@70d88000-t20sg0-tcum62-se45.cm5.oshuawei.com:17235#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%5BCT%5D
 https://d076280a-0d5f-11f0-8a7b-f23c913c8d2b:d076280a-0d5f-11f0-8a7b-f23c913c8d2b@330fdfe8-t20sg0-tcum62-se45.sg3.oshuawei.com:443#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A13
-http=hk04.sqx001.com:8443, username=podbbylf@mayorlogistic.com, password=25d55ad283aa400af464c76d713c07ad, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=[🅷🆆]🇭🇰 HongKong4
-http=singapore02.sqx001.com:8444, username=podbbylf@mayorlogistic.com, password=25d55ad283aa400af464c76d713c07ad, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=[🅷🆆]🇭🇰 Singapore (via HK)
-http=vn02hk.sqx001.com:8445, username=podbbylf@mayorlogistic.com, password=25d55ad283aa400af464c76d713c07ad, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=[🅷🆆]🇭🇰 HoChiMinh2 (via HK）
