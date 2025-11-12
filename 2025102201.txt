@@ -1,5 +1,4 @@
-trojan://BxceQaOe@203.198.122.129:443?allowInsecure=1#%F0%9F%87%AD%F0%9F%87%B0HK_1
-encryption=none&security=tls&sni=snibp.zrf.pp.ua&fp=random&type=ws&host=snibp.zrf.pp.ua&path=%2F%3Fed%3D2560#%E5%AE%98%E6%96%B9%E4%BC%98%E9%80%89%E3%80%90TG%3A%40LSMOO%E3%80%91
+trojan://BxceQaOe@203.198.122.129:443?security=tls&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0HK_2
 vless://6c8b502e-0ebc-4180-a7ba-36dd77dcd351@icook.tw:443?encryption=none&security=tls&sni=snibp.zrf.pp.ua&fp=random&type=ws&host=snibp.zrf.pp.ua&path=%2F%3Fed%3D2560#%E5%AE%98%E6%96%B9%E4%BC%98%E9%80%89%E3%80%90TG%3A%40LSMOO%E3%80%91
 vless://6c8b502e-0ebc-4180-a7ba-36dd77dcd351@icook.hk:443?encryption=none&security=tls&sni=snibp.zrf.pp.ua&fp=random&type=ws&host=snibp.zrf.pp.ua&path=%2F%3Fed%3D2560#%E5%AE%98%E6%96%B9%E4%BC%98%E9%80%89%E3%80%90TG%3A%40LSMOO%E3%80%91
 vless://6c8b502e-0ebc-4180-a7ba-36dd77dcd351@staticdelivery.nexusmods.com:443?encryption=none&security=tls&sni=snibp.zrf.pp.ua&fp=random&type=ws&host=snibp.zrf.pp.ua&path=%2F%3Fed%3D2560#NexusMods%E3%80%90TG%3A%40LSMOO%E3%80%91
