@@ -1,624 +1,613 @@
+# filename: linux2F.yaml
+# 适用于 Clash Verge (或兼容 Clash.Meta 新版本内核)
+
+port: 7890          # HTTP 代理端口
+socks-port: 7891    # SOCKS5 代理端口
+allow-lan: false    # 是否允许局域网设备连接，true 允许，false 仅本机
+mode: Rule          # 代理模式：Rule (规则), Global (全局), Direct (直连)
+log-level: info     # 日志级别：silent, error, warning, info, debug
+
+# DNS 设置 (推荐配置，以防止 DNS 污染和提高解析速度)
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  listen: 0.0.0.0:53
+  nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+  fallback:
+    - 8.8.4.4
+    - 1.0.0.1
+
+# 代理节点配置 (Proxies)
 proxies:
-  - name: "🇺🇸US1-CN2"
-    type: vless
-    server: 38.150.2.31
-    port: 30000
-    udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
-    tls: true
-    servername: us.alice.cloudns.pro
-    client-fingerprint: chrome
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /siehdfioshfiosdfskkk
-      headers:
-        Host: us.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+  # TUIC 节点 (保持原名)
+  
 
-  - name: "🇺🇸US2-CN2"
-    type: vless
-    server: 38.207.163.210
-    port: 50315
-    udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
-    tls: true
-    servername: us.alice.cloudns.pro
-    client-fingerprint: chrome
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /siehdfioshfiosdfskkk
-      headers:
-        Host: us.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
 
-  - name: "🇺🇸US3-CN2"
+  # VLESS 节点 (美国节点已重新编号)
+  - name: "美国1"
     type: vless
-    server: 38.207.170.6
-    port: 10610
+    server: 174.136.205.28
+    port: 1234
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: us.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /siehdfioshfiosdfskkk
-      headers:
-        Host: us.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: SzoX8bSlZy2psM7zv5Wvrywpz2ys7QObQu_Gq7VErh0
+      short-id: 9c487977ab1587
+    client-fingerprint: firefox
 
-  - name: "🇺🇸US4-CN2"
+  - name: "美国2"
     type: vless
-    server: 38.207.170.88
-    port: 14243
+    server: 174.136.206.47
+    port: 1234
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: us.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /siehdfioshfiosdfskkk
-      headers:
-        Host: us.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: kJs7-wAle4x72tx12wmqj-uii2KlVd0LkvZoGOuc7Sg
+      short-id: fc681301
+    client-fingerprint: chrome
 
-  - name: "🇺🇸US5-CN2"
+  - name: "美国3"
     type: vless
-    server: 38.207.182.150
-    port: 12901
+    server: 154.31.113.124
+    port: 1234
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: us.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /siehdfioshfiosdfskkk
-      headers:
-        Host: us.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: uPjJKG4MLndQ-OZKB9eI8bW8OmHI6dQpDONolae7TEg
+      short-id: 641f
+    client-fingerprint: firefox
 
-  - name: "🇺🇸US6-CF移动"
+  - name: "美国4"
     type: vless
-    server: cloudflare-cm-ip-ddns.sakuraikaede.com
-    port: 443
+    server: 154.12.179.62
+    port: 1234
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: us.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /siehdfioshfiosdfskkk
-      headers:
-        Host: us.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: OGXrkIbzggo4yVn6hWcOcVj--jQvfwBDqkEllXJBXHI
+      short-id: 38ecc10d5e57
+    client-fingerprint: ios
 
-  - name: "🇺🇸US7-CF联通"
+  - name: "美国5"
     type: vless
-    server: cloudflare-cu-ip-ddns.sakuraikaede.com
-    port: 443
+    server: 142.171.42.112
+    port: 1234
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: us.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /siehdfioshfiosdfskkk
-      headers:
-        Host: us.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: ErNOYCru3sbY04OdfQ3cME49GJIdG99mvSF_d_j5nUw
+      short-id: "42e1"
+    client-fingerprint: ios
 
-  - name: "🇺🇸US8-CF电信"
+  - name: "美国6"
     type: vless
-    server: cloudflare-ct-ip-ddns.sakuraikaede.com
-    port: 443
+    server: 144.34.237.193
+    port: 1234
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: us.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /siehdfioshfiosdfskkk
-      headers:
-        Host: us.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: zQTZbNy2NfckvR8eQ37VqoHTFQc2VVhj9XcBWER47B4
+      short-id: c75c17
+    client-fingerprint: chrome
 
-  - name: "🇸🇬SG1-CN2"
+  - name: "美国7"
     type: vless
-    server: 38.207.163.210
-    port: 50315
+    server: 154.21.90.182
+    port: 1234
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: sg.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
-      headers:
-        Host: sg.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: YnH_r_DW3G3HKIautSUgyf_0TY4_ZshGkPOhgVvZUxE
+      short-id: a0ebdbe56c
+    client-fingerprint: safari
 
-  - name: "🇸🇬SG2-CN2"
+  - name: "美国8"
     type: vless
-    server: 37.123.192.201
-    port: 24961
+    server: 38.148.249.19
+    port: 1234
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: sg.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
-      headers:
-        Host: sg.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: s-KpeunFeud09SzSZbw67StQof0Nx0sXIH0U2IL4mWk
+      short-id: 8f274d
+    client-fingerprint: chrome
 
-  - name: "🇸🇬SG3-CN2"
+  - name: "美国9"
     type: vless
-    server: 154.17.11.22
-    port: 19050
+    server: 154.29.150.174
+    port: 1234
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: sg.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
-      headers:
-        Host: sg.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: K3ygwUx3rIKt5ottE-fjOExifPsePYPZ8FXtjfki5hQ
+      short-id: 6d55ec00ebcac5
+    client-fingerprint: firefox
 
-  - name: "🇸🇬SG4-CN2"
+  - name: "美国10"
     type: vless
-    server: 104.194.68.16
-    port: 25222
+    server: 104.224.154.121
+    port: 1234
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: sg.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
-      headers:
-        Host: sg.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: F00wrVXzbZ-fY_COrg7e923F8P5VOP2zLCf4nywOZh0
+      short-id: 849ebb998e
+    client-fingerprint: ios
 
-  - name: "🇸🇬SG5-CN2"
+  - name: "美国11"
     type: vless
-    server: 38.150.2.108
-    port: 57649
+    server: 23.166.168.131
+    port: 1234
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: sg.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
-      headers:
-        Host: sg.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: pnixdOtHuMoUXU5zuQhE_qyaL5_ag2tSSYrhYPTqoRc
+      short-id: 27812a71967e0d
+    client-fingerprint: edge
 
-  - name: "🇸🇬SG6-CF移动"
+  - name: "美国12"
     type: vless
-    server: cloudflare-cm-ip-ddns.sakuraikaede.com
-    port: 443
+    server: 154.26.182.209
+    port: 1234
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: sg.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
-      headers:
-        Host: sg.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: kkBoo11Fsk9Rp1WatRPOk_LA530tgtiW2jYHMC2dXB8
+      short-id: 1aeed72678
+    client-fingerprint: firefox
 
-  - name: "🇸🇬SG7-CF联通"
+  - name: "美国13"
     type: vless
-    server: cloudflare-cu-ip-ddns.sakuraikaede.com
-    port: 443
+    server: 45.62.112.23
+    port: 1234
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: sg.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
-      headers:
-        Host: sg.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: YwJhqh94D6DR7NVy410YbPvonC6VxtB-LNq-gsj34jo
+      short-id: 370b52e482ab
+    client-fingerprint: qq
 
-  - name: "🇸🇬SG8-CF电信"
+  - name: "美国14"
     type: vless
-    server: cloudflare-ct-ip-ddns.sakuraikaede.com
-    port: 443
+    server: 174.136.205.28
+    port: 1235
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: sg.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
-      headers:
-        Host: sg.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: '-sVJCZ_3WABrtDBKsnLyWkLLE5z6VaDm7FgN6iiP-Xs'
+      short-id: 7cca75e40f
+    client-fingerprint: ios
 
-  - name: "🇵🇱PL1-CN2"
+  - name: "美国15"
     type: vless
-    server: 38.207.163.72
-    port: 56328
+    server: 174.136.206.47
+    port: 1235
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: pl.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /gseuifghuisgfuiseuifseguif
-      headers:
-        Host: pl.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: tWigSIf2YHpp8Lgc12sztJiWSQ_q-zp7NkicVoz8Qns
+      short-id: 4edbc026631a4b4b
+    client-fingerprint: edge
 
-  - name: "🇵🇱PL2-CN2"
+  - name: "美国16"
     type: vless
-    server: 37.123.192.228
-    port: 18563
+    server: 172.245.61.100
+    port: 1234
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: pl.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /gseuifghuisgfuiseuifseguif
-      headers:
-        Host: pl.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: tBTdzTKUrEc8geLcvOvm840j242oM7BmrgA5z8MFjzA
+      short-id: 305402c912
+    client-fingerprint: chrome
 
-  - name: "🇵🇱PL3-CN2"
+  - name: "美国17"
     type: vless
-    server: 23.169.184.28
-    port: 13800
+    server: 107.172.51.200
+    port: 1234
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: pl.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /gseuifghuisgfuiseuifseguif
-      headers:
-        Host: pl.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: lzsHmMTTzB_tFXoJz-PNpA6Mwv_JXPeSXrdDN8mHvTQ
+      short-id: 1de35536ff3271
+    client-fingerprint: chrome
 
-  - name: "🇵🇱PL4-CN2"
+  - name: "美国18"
     type: vless
-    server: 166.0.188.91
-    port: 12888
+    server: 154.23.172.31
+    port: 1234
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: pl.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /gseuifghuisgfuiseuifseguif
-      headers:
-        Host: pl.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: 2O7M9UDeANhIBpp0famANZY5cHb28C9qnUI40IvSMVI
+      short-id: 4fab38a44f91
+    client-fingerprint: edge
 
-  - name: "🇵🇱PL5-CN2"
+  - name: "美国19"
     type: vless
-    server: 154.7.179.22
-    port: 30127
+    server: 206.189.172.168
+    port: 1234
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: pl.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /gseuifghuisgfuiseuifseguif
-      headers:
-        Host: pl.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: 9TQg11KfWCIcqelEFs6opfwuqP7OsfijVUwmZIaPuEg
+      short-id: 1198b59958e75945
+    client-fingerprint: safari
 
-  - name: "🇵🇱PL6-CF移动"
+  - name: "美国20"
     type: vless
-    server: cloudflare-cm-ip-ddns.sakuraikaede.com
-    port: 443
+    server: 192.210.179.29
+    port: 1234
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
+    flow: xtls-rprx-vision
     tls: true
-    servername: pl.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /gseuifghuisgfuiseuifseguif
-      headers:
-        Host: pl.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+    servername: tesla.com
+    reality-opts:
+      public-key: 4GxQAYoBDISPHAHdE9_drLUGi_drK2NOasvCRu6Ss1E
+      short-id: 0400823aac5959ff
+    client-fingerprint: qq
 
-  - name: "🇵🇱PL7-CF联通"
-    type: vless
-    server: cloudflare-cu-ip-ddns.sakuraikaede.com
-    port: 443
-    udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
-    tls: true
-    servername: pl.alice.cloudns.pro
-    client-fingerprint: chrome
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /gseuifghuisgfuiseuifseguif
-      headers:
-        Host: pl.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+  # Hysteria2 节点 (美国节点已重新编号)
+  - name: "美国21"
+    type: hysteria2
+    server: 209.141.42.234
+    port: 1234
+    sni: usa.xiaoyao-88.com
+    skip-cert-verify: true
+    password: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    obfs: salamander
+    obfs-password: linux.do
 
-  - name: "🇵🇱PL8-CF电信"
+  # VLESS with WS 节点 (美国节点已重新编号)
+  - name: "美国22"
     type: vless
-    server: cloudflare-ct-ip-ddns.sakuraikaede.com
-    port: 443
+    server: usa3.xiaoyao-88.com
+    port: 2053
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    packet-encoding: xudp
     tls: true
-    servername: pl.alice.cloudns.pro
-    client-fingerprint: chrome
     skip-cert-verify: false
+    servername: usa3.xiaoyao-88.com
     network: ws
     ws-opts:
-      path: /gseuifghuisgfuiseuifseguif
+      path: "/"
       headers:
-        Host: pl.alice.cloudns.pro
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    tfo: true
-    mptcp: true
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-streams: 10
-      padding: true
+        Host: usa3.xiaoyao-88.com
+
+  - name: "美国23"
+    type: vless
+    server: usa1.xiaoyao-88.com
+    port: 2053
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: usa1.xiaoyao-88.com
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: usa1.xiaoyao-88.com
+
+  - name: "美国24"
+    type: vless
+    server: usa2.xiaoyao-88.com
+    port: 2053
+    uuid: e876f6a7-c533-4b40-b611-2ddfc9e0fea9
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: usa2.xiaoyao-88.com
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: usa2.xiaoyao-88.com
+
+  # Hysteria 节点 (保持原名)
+  - name: "🇫🇷法国1"
+    type: hysteria
+    server: 195.154.200.40
+    port: 15010
+    auth-str: dongtaiwang.com
+    sni: apple.com
+    skip-cert-verify: true
+    alpn:
+      - h3
+    up: '100'
+    down: '100'
+    delay: 908
+
+  # HTTP 节点 (保持原名，注意替换密码)
+  - name: "🇭🇰香港1"
+    type: http
+    server: 85e272b6-sxe4g0-t1bnjq-1krtb.hkt.cdnhuawei.com
+    port: 8443
+    username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+    password: <password> # !!! 请替换为真实密码 !!!
+    tls: true
+    sni: 85e272b6-sxe4g0-t1bnjq-1krtb.hkt.cdnhuawei.com
+
+  - name: "🇭🇰香港2"
+    type: http
+    server: dd902adc-sxc9s0-t1bnjq-1krtb.hkt.cdnhuawei.com
+    port: 8443
+    username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+    password: <password> # !!! 请替换为真实密码 !!!
+    tls: true
+    sni: dd902adc-sxc9s0-t1bnjq-1krtb.hkt.cdnhuawei.com
+
+  # Trojan over WS 节点 (保持原名)
+  - name: "🇳🇱荷兰6"
+    type: trojan
+    server: do-itforyou.pages.dev
+    port: 2083
+    password: '$_qP4V4U26sb{04A'
+    udp: true
+    skip-cert-verify: false
+    sni: do-itfORYOU.PAGEs.deV
+    network: ws
+    ws-opts:
+      path: /trdFPAI0ljLLOygN2y?ed=2560
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+
+  - name: "🇳🇱荷兰9"
+    type: trojan
+    server: koma-yt.pages.dev
+    port: 8443
+    password: '8r<[9''l6hAO#8ZQi'
+    udp: true
+    skip-cert-verify: false
+    sni: Koma-YT.PAGeS.Dev
+    network: ws
+    ws-opts:
+      path: /tro8sFW1S91B6sZrM1?ed=2560
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+  - name: "🇩🇪德国4"
+    type: trojan
+    server: 172.66.44.230
+    port: 8443
+    password: '8r<[9''l6hAO#8ZQi'
+    udp: true
+    skip-cert-verify: false
+    sni: Koma-YT.PAGeS.Dev
+    network: ws
+    ws-opts:
+      path: /tro8sFW1S91B6sZrM1?ed=2560
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+
+  # Shadowsocks 节点 (保持原名)
+  - name: "🇻🇳其他13-VN"
+    type: ss
+    server: 103.186.155.218
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+
+# 代理组配置 (Proxy Groups)
+proxy-groups:
+  - name: "Proxy" # 用户在客户端界面看到的主要选择组
+    type: select
+    proxies:
+
+      # 重新编号的美国节点
+      - 美国1
+      - 美国2
+      - 美国3
+      - 美国4
+      - 美国5
+      - 美国6
+      - 美国7
+      - 美国8
+      - 美国9
+      - 美国10
+      - 美国11
+      - 美国12
+      - 美国13
+      - 美国14
+      - 美国15
+      - 美国16
+      - 美国17
+      - 美国18
+      - 美国19
+      - 美国20
+      - 美国21
+      - 美国22
+      - 美国23
+      - 美国24
+
+      # 其他非美国节点 (保持原名)
+      - 🇫🇷法国1
+      - 🇭🇰香港1
+      - 🇭🇰香港2
+      - 🇳🇱荷兰6
+      - 🇳🇱荷兰9
+      - 🇩🇪德国4
+      - 🇻🇳其他13-VN
+
+# 规则配置 (Rules) - 基本规则集，确保流量通过代理
+rules:
+  # ======== 本地和私有网络流量直连 (通常这些在规则列表最前面) ========
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,127.0.0.1/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT # CGNAT IP 地址范围
+
+  # ======== 您明确要求直连的 IP 和域名 ========
+  - IP-CIDR,175.178.82.29/32,DIRECT
+  - DOMAIN,oj.czos.cn,DIRECT
+  - DOMAIN-SUFFIX,feishu.cn,DIRECT
+  - DOMAIN,htoj.com.cn,DIRECT
+  - DOMAIN,qceit.org.cn,DIRECT
+  - DOMAIN,xiaomai5.com,DIRECT
+
+  # ======== 淘宝和阿里巴巴相关域名直连 ========
+  - DOMAIN-SUFFIX,taobao.com,DIRECT
+  - DOMAIN-SUFFIX,tmall.com,DIRECT
+  - DOMAIN-SUFFIX,alibaba.com,DIRECT
+  - DOMAIN-SUFFIX,aliyun.com,DIRECT
+  - DOMAIN-SUFFIX,alipay.com,DIRECT
+  - DOMAIN-SUFFIX,cainiao.com,DIRECT
+  - DOMAIN-SUFFIX,etao.com,DIRECT
+  - DOMAIN-SUFFIX,dingtalk.com,DIRECT
+  - DOMAIN-SUFFIX,fliggy.com,DIRECT
+  - DOMAIN-SUFFIX,youku.com,DIRECT
+  - DOMAIN-SUFFIX,amap.com,DIRECT
+  - DOMAIN-SUFFIX,ele.me,DIRECT
+  - DOMAIN-SUFFIX,xianyu.com,DIRECT
+
+  # ======== 京东相关域名直连 ========
+  - DOMAIN-SUFFIX,jd.com,DIRECT
+  - DOMAIN-SUFFIX,jdwl.com,DIRECT
+  - DOMAIN-SUFFIX,jdcloud.com,DIRECT
+  - DOMAIN-SUFFIX,jd.finance,DIRECT
+  - DOMAIN-SUFFIX,3.cn,DIRECT
+
+  # ======== 拼多多相关域名直连 ========
+  - DOMAIN-SUFFIX,pinduoduo.com,DIRECT
+  - DOMAIN-SUFFIX,yangkeduo.com,DIRECT
+  - DOMAIN-SUFFIX,duoduo.com,DIRECT
+
+  # ======== 微信相关域名直连 ========
+  - DOMAIN-SUFFIX,wechat.com,DIRECT
+  - DOMAIN-SUFFIX,weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,tenpay.com,DIRECT
+  - DOMAIN-SUFFIX,qq.com,DIRECT
+  - DOMAIN-SUFFIX,qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,cdn.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,sztencent.com,DIRECT
+  - DOMAIN-SUFFIX,gtimg.com,DIRECT
+
+  # 最后一条规则：匹配所有未被前面规则命中的流量，通过 'Proxy' 代理组
+  - MATCH,Proxy
