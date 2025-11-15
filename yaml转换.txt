@@ -1,36 +1,624 @@
 proxies:
-  - {name: 🇭🇰 香港家宽 01, server: d4118d6c-sznls0-t13m8m-g3b3.hk3.p5pv.com, port: 80, type: vmess, uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 02, server: 1bb8b6d8-sznls0-t13m8m-g3b3.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 03, server: d806260c-sznls0-tifnix-1ro8s.hk.p5pv.com, port: 80, type: vmess, uuid: a18ef18e-293a-11ef-b76e-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 04, server: 2dec3898-sznls0-t13m14-1thts.hk.p5pv.com, port: 80, type: vmess, uuid: cb96c846-fd6d-11ef-a910-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 05, server: 7f75c5cb-sznls0-tifnix-1ro8s.hk3.p5pv.com, port: 80, type: vmess, uuid: a18ef18e-293a-11ef-b76e-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 06, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: a18ef18e-293a-11ef-b76e-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 07, server: v10.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 08, server: a9833a04-sznls0-t13m14-1thts.hk3.p5pv.com, port: 80, type: vmess, uuid: cb96c846-fd6d-11ef-a910-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 09, server: 41a79704-sznls0-t13m14-1thts.hkt.tcpbbr.net, port: 80, type: vmess, uuid: cb96c846-fd6d-11ef-a910-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 10, server: 28bdf157-sznls0-t13m8m-g3b3.hk.p5pv.com, port: 80, type: vmess, uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 11, server: 75ae692b-sznls0-tifnix-1ro8s.hkt.tcpbbr.net, port: 80, type: vmess, uuid: a18ef18e-293a-11ef-b76e-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 12, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 13, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: cb96c846-fd6d-11ef-a910-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇰🇷 韩国家宽 01, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 🇰🇷 韩国家宽 02, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 🇰🇷 韩国家宽 03, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 🇹🇼 台湾家宽 01, server: twjxlnnoljxc2.jkhkgj.xyz, port: 80, type: vmess, uuid: 3cf79bca-41e3-47d5-ba67-87a69a1a9e59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/market/tw?ed=512", headers: {Host: file.dingtalk.com}}, udp: true}
-  - {name: 🇹🇼 台湾家宽 02, server: 79968cbd-sznls0-t0yugh-dnss.77.iwskwai.com, port: 3687, type: vmess, uuid: 16955d72-1794-11f0-a035-f23c95b6f51d, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾家宽 03, server: a78096bf-sznls0-t0yugh-dnss.82.iwskwai.com, port: 3690, type: vmess, uuid: 16955d72-1794-11f0-a035-f23c95b6f51d, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾家宽 04, server: a89112b9-sznls0-tckngf-5fdt.82.iwskwai.com, port: 3690, type: vmess, uuid: 712bdc36-24be-11ee-be53-f23c9313b177, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾家宽 05, server: b36a3fba-sznls0-tckngf-5fdt.77.iwskwai.com, port: 3687, type: vmess, uuid: 712bdc36-24be-11ee-be53-f23c9313b177, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾家宽 06, server: ff7823ab-sznls0-t0l7ae-4mce.77.iwskwai.com, port: 3687, type: vmess, uuid: 06c625ea-5902-11ee-9e87-f23c9313b177, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾家宽 07, server: e9519085-sznls0-t48q54-4550.82.iwskwai.com, port: 3690, type: vmess, uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾家宽 08, server: 8077092c-sznls0-t0wpqd-4cwg.77.iwskwai.com, port: 3687, type: vmess, uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾家宽 09, server: 90ee7d88-sznls0-t00qxu-1glq.82.iwskwai.com, port: 3690, type: vmess, uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾家宽 10, server: ce2fa4d6-sznls0-t0wpqd-4cwg.82.iwskwai.com, port: 3690, type: vmess, uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾家宽 11, server: 91371b58-sznls0-t00qxu-1glq.77.iwskwai.com, port: 3687, type: vmess, uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾家宽 12, server: 2113bb2f-sznls0-t48q54-4550.77.iwskwai.com, port: 3687, type: vmess, uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾家宽 13, server: 07937478-sznls0-t0l7ae-4mce.82.iwskwai.com, port: 3690, type: vmess, uuid: 06c625ea-5902-11ee-9e87-f23c9313b177, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾家宽 14, server: 183.240.187.198, port: 34664, type: ss, cipher: 2022-blake3-aes-128-gcm, password: 12xGRmcEy3TVETzE47MreA==, udp: true}
-  - {name: 🇹🇼 台湾家宽 15, server: tw-2.534582.xyz, port: 49226, type: vless, uuid: 9244d7a3-6c74-4035-b64f-a90f3ee6e173, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: vyqO2y1XKUzVQNuOAtBpYPaZJWxuvfA9CTVuoF9RClQ}, servername: dash.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇹🇼 台湾家宽 16, server: 203.198.84.186, port: 11369, type: hysteria2, password: AJtWMZGEP3nsQYLLaKKtBDUGDCg, auth: AJtWMZGEP3nsQYLLaKKtBDUGDCg, sni: bing.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国家宽 01, server: cc-4-www.weixin.su, port: 25333, type: trojan, password: cdcb28fb-6deb-49ca-a53c-7090ac638085, sni: sjc-4-www.weixin.su, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国家宽 02, server: cc-1-apple.weixin.su, port: 25333, type: trojan, password: cdcb28fb-6deb-49ca-a53c-7090ac638085, sni: cc-1-apple.weixin.su, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国家宽 03, server: cc-2-pen.weixin.su, port: 25333, type: trojan, password: cdcb28fb-6deb-49ca-a53c-7090ac638085, sni: cc-2-pen.weixin.su, skip-cert-verify: false, udp: true}
+  - name: "🇺🇸US1-CN2"
+    type: vless
+    server: 38.150.2.31
+    port: 30000
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: us.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /siehdfioshfiosdfskkk
+      headers:
+        Host: us.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇺🇸US2-CN2"
+    type: vless
+    server: 38.207.163.210
+    port: 50315
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: us.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /siehdfioshfiosdfskkk
+      headers:
+        Host: us.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇺🇸US3-CN2"
+    type: vless
+    server: 38.207.170.6
+    port: 10610
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: us.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /siehdfioshfiosdfskkk
+      headers:
+        Host: us.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇺🇸US4-CN2"
+    type: vless
+    server: 38.207.170.88
+    port: 14243
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: us.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /siehdfioshfiosdfskkk
+      headers:
+        Host: us.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇺🇸US5-CN2"
+    type: vless
+    server: 38.207.182.150
+    port: 12901
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: us.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /siehdfioshfiosdfskkk
+      headers:
+        Host: us.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇺🇸US6-CF移动"
+    type: vless
+    server: cloudflare-cm-ip-ddns.sakuraikaede.com
+    port: 443
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: us.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /siehdfioshfiosdfskkk
+      headers:
+        Host: us.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇺🇸US7-CF联通"
+    type: vless
+    server: cloudflare-cu-ip-ddns.sakuraikaede.com
+    port: 443
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: us.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /siehdfioshfiosdfskkk
+      headers:
+        Host: us.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇺🇸US8-CF电信"
+    type: vless
+    server: cloudflare-ct-ip-ddns.sakuraikaede.com
+    port: 443
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: us.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /siehdfioshfiosdfskkk
+      headers:
+        Host: us.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇸🇬SG1-CN2"
+    type: vless
+    server: 38.207.163.210
+    port: 50315
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: sg.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
+      headers:
+        Host: sg.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇸🇬SG2-CN2"
+    type: vless
+    server: 37.123.192.201
+    port: 24961
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: sg.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
+      headers:
+        Host: sg.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇸🇬SG3-CN2"
+    type: vless
+    server: 154.17.11.22
+    port: 19050
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: sg.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
+      headers:
+        Host: sg.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇸🇬SG4-CN2"
+    type: vless
+    server: 104.194.68.16
+    port: 25222
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: sg.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
+      headers:
+        Host: sg.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇸🇬SG5-CN2"
+    type: vless
+    server: 38.150.2.108
+    port: 57649
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: sg.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
+      headers:
+        Host: sg.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇸🇬SG6-CF移动"
+    type: vless
+    server: cloudflare-cm-ip-ddns.sakuraikaede.com
+    port: 443
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: sg.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
+      headers:
+        Host: sg.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇸🇬SG7-CF联通"
+    type: vless
+    server: cloudflare-cu-ip-ddns.sakuraikaede.com
+    port: 443
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: sg.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
+      headers:
+        Host: sg.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇸🇬SG8-CF电信"
+    type: vless
+    server: cloudflare-ct-ip-ddns.sakuraikaede.com
+    port: 443
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: sg.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
+      headers:
+        Host: sg.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇵🇱PL1-CN2"
+    type: vless
+    server: 38.207.163.72
+    port: 56328
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: pl.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /gseuifghuisgfuiseuifseguif
+      headers:
+        Host: pl.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇵🇱PL2-CN2"
+    type: vless
+    server: 37.123.192.228
+    port: 18563
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: pl.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /gseuifghuisgfuiseuifseguif
+      headers:
+        Host: pl.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇵🇱PL3-CN2"
+    type: vless
+    server: 23.169.184.28
+    port: 13800
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: pl.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /gseuifghuisgfuiseuifseguif
+      headers:
+        Host: pl.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇵🇱PL4-CN2"
+    type: vless
+    server: 166.0.188.91
+    port: 12888
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: pl.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /gseuifghuisgfuiseuifseguif
+      headers:
+        Host: pl.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇵🇱PL5-CN2"
+    type: vless
+    server: 154.7.179.22
+    port: 30127
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: pl.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /gseuifghuisgfuiseuifseguif
+      headers:
+        Host: pl.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇵🇱PL6-CF移动"
+    type: vless
+    server: cloudflare-cm-ip-ddns.sakuraikaede.com
+    port: 443
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: pl.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /gseuifghuisgfuiseuifseguif
+      headers:
+        Host: pl.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇵🇱PL7-CF联通"
+    type: vless
+    server: cloudflare-cu-ip-ddns.sakuraikaede.com
+    port: 443
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: pl.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /gseuifghuisgfuiseuifseguif
+      headers:
+        Host: pl.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
+
+  - name: "🇵🇱PL8-CF电信"
+    type: vless
+    server: cloudflare-ct-ip-ddns.sakuraikaede.com
+    port: 443
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    packet-encoding: xudp
+    tls: true
+    servername: pl.alice.cloudns.pro
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /gseuifghuisgfuiseuifseguif
+      headers:
+        Host: pl.alice.cloudns.pro
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    tfo: true
+    mptcp: true
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-streams: 10
+      padding: true
