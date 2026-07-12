@@ -10,3 +10,7 @@ trojan://PI36027154@faithful-clam.rooster465.autos:443?mux=1#%E6%96%B0%E5%8A%A0%
 trojan://PI36027154@stirred-buck.rooster465.autos:443?mux=1#%E6%96%B0%E5%8A%A0%E5%9D%A1-高速(j)
 trojan://PI36027154@robust-wallaby.rooster465.autos:443?mux=1#%E6%96%B0%E5%8A%A0%E5%9D%A1-高速(k)
 trojan://PI36027154@busy-lab.rooster465.autos:443?mux=1#%E6%96%B0%E5%8A%A0%E5%9D%A1-高速(l)
+trojan://PI36027154@fun-labrador.rooster465.autos:443?mux=1#%E7%88%B1%E5%B0%94%E5%85%B0-%E9%AB%98%E9%80%9F1
+trojan://PI36027154@above-rabbit.rooster465.autos:443?mux=1#%E7%88%B1%E5%B0%94%E5%85%B0-%E9%AB%98%E9%80%9F2
+trojan://PI36027154@thankful-piranha.rooster465.autos:443?mux=1#%E7%88%B1%E5%B0%94%E5%85%B0-%E9%AB%98%E9%80%9F3
+trojan://PI36027154@funky-opossum.rooster465.autos:443?mux=1#%E7%88%B1%E5%B0%94%E5%85%B0-%E9%AB%98%E9%80%9F4
