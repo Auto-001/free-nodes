@@ -1,12 +1,9 @@
-trojan://PI36027154@adapting-basilisk.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%97%A5%E6%9C%AC-%E9%AB%98%E9%80%9F
 trojan://PI36027154@enough-lamb.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%97%A5%E6%9C%AC-%E9%AB%98%E9%80%9F
 trojan://PI36027154@on-airedale.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%97%A5%E6%9C%AC-%E9%AB%98%E9%80%9F
 trojan://PI36027154@deep-collie.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%97%A5%E6%9C%AC-%E9%AB%98%E9%80%9F
-trojan://PI36027154@intimate-moray.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%97%A5%E6%9C%AC-%E9%AB%98%E9%80%9F
 trojan://PI36027154@fond-chipmunk.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%97%A5%E6%9C%AC-%E9%AB%98%E9%80%9F
 trojan://PI36027154@pro-mako.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%97%A5%E6%9C%AC-%E9%AB%98%E9%80%9F
 trojan://PI36027154@moved-bluegill.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%97%A5%E6%9C%AC-%E9%AB%98%E9%80%9F
-trojan://PI36027154@ruling-toucan.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%97%A5%E6%9C%AC-%E9%AB%98%E9%80%9F
 trojan://PI36027154@striking-maggot.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%97%A5%E6%9C%AC-%E9%AB%98%E9%80%9F
 trojan://PI36027154@exotic-chow.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%97%A5%E6%9C%AC-%E9%AB%98%E9%80%9F
 trojan://PI36027154@mighty-crawdad.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%97%A5%E6%9C%AC-%E9%AB%98%E9%80%9F
@@ -23,7 +20,6 @@ trojan://PI36027154@bursting-baboon.rooster465.autos:443?security=tls&insecure=0
 trojan://PI36027154@cuddly-sheepdog.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%96%B0%E5%8A%A0%E5%9D%A1-%E9%AB%98%E9%80%9F
 trojan://PI36027154@brief-hare.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%96%B0%E5%8A%A0%E5%9D%A1-%E9%AB%98%E9%80%9F
 trojan://PI36027154@polished-akita.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%96%B0%E5%8A%A0%E5%9D%A1-%E9%AB%98%E9%80%9F
-trojan://PI36027154@immune-mullet.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%96%B0%E5%8A%A0%E5%9D%A1-%E9%AB%98%E9%80%9F
 trojan://PI36027154@arriving-koala.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%96%B0%E5%8A%A0%E5%9D%A1-%E9%AB%98%E9%80%9F
 trojan://PI36027154@frank-turtle.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%96%B0%E5%8A%A0%E5%9D%A1-%E9%AB%98%E9%80%9F
 trojan://PI36027154@pleased-raptor.rooster465.autos:443?security=tls&insecure=0&allowInsecure=0&type=tcp&headerType=none#%E6%96%B0%E5%8A%A0%E5%9D%A1-%E9%AB%98%E9%80%9F
